@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Concurrency.Cookbook", "Concurrency.Cookbook\Concurrency.Cookbook.csproj", "{D65EC796-A9AF-41D6-A489-6F97B2F5E9ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D65EC796-A9AF-41D6-A489-6F97B2F5E9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65EC796-A9AF-41D6-A489-6F97B2F5E9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65EC796-A9AF-41D6-A489-6F97B2F5E9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65EC796-A9AF-41D6-A489-6F97B2F5E9ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {33674F2C-F418-4401-9367-5C4B2C06D508}
+	EndGlobalSection
+EndGlobal
