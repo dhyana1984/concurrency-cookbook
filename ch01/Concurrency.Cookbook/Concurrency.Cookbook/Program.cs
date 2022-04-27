@@ -6,7 +6,13 @@ namespace Concurrency.Cookbook
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //DeadLock deadLock = new DeadLock();
+            //deadLock.Deadlock();
+
+            ReactiveSample reactiveSample = new ReactiveSample();
+            reactiveSample.SubscribeSample();
+
+            Console.ReadLine();
         }
     }
 }
