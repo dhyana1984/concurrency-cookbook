@@ -9,8 +9,10 @@ namespace Concurrency.CookBook
     {
         public IAsyncEnumerableSample()
         {
+
         }
 
+        //Create IAsyncEnumerable
         async IAsyncEnumerable<string> GetValueAsync(HttpClient client)
         {
             int offset = 0;
@@ -37,6 +39,7 @@ namespace Concurrency.CookBook
             }
         }
 
+        //Consume IAsyncEnumerable
         async Task ProcessValueAsync(HttpClient client)
         {
             await foreach (var value in GetValueAsync(client))
